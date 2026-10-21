@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy Policy: Sitemap Path Explorer</title>
+<meta name="description" content="How Sitemap Path Explorer handles your data.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f8f9fb;
+    --ink: #1d2330;
+    --muted: #566074;
+    --rule: #c9d0dc;
+    --accent: #1a0dab;
+    --note-bg: #eef1f8;
+    --code-bg: #e9edf5;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11141b;
+      --ink: #e6e9f0;
+      --muted: #9aa4b8;
+      --rule: #333b4d;
+      --accent: #9fb0ff;
+      --note-bg: #1b2132;
+      --code-bg: #222839;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 1rem/1.65 var(--sans);
+  }
+  .page {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  h1, h2 { font-family: var(--serif); font-weight: 700; line-height: 1.2; }
+  h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
+  .tagline { margin: 0; font-size: 1.1rem; color: var(--muted); }
+  .meta {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.25rem 1.25rem;
+    margin: 1.5rem 0 0;
+  }
+  .meta dt { font-weight: 600; }
+  .meta dd { margin: 0; }
+  .toc {
+    margin: 1.5rem 0 0;
+    padding: 0.75rem 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .toc ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.95rem;
+  }
+  .toc li { margin: 0; }
+  .trunk {
+    margin: 0.5rem 0 0 0.25rem;
+    padding-left: 1.75rem;
+    border-left: 1px solid var(--rule);
+  }
+  h2 {
+    position: relative;
+    font-size: 1.4rem;
+    margin: 2.75rem 0 0.75rem;
+    scroll-margin-top: 1rem;
+  }
+  h2::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.75rem - 1px);
+    top: 0.72em;
+    width: 1.2rem;
+    border-top: 1px solid var(--rule);
+  }
+  .trunk > section:first-child h2 { margin-top: 2rem; }
+  p { margin: 0 0 1rem; }
+  ul, ol { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin: 0.5rem 0; }
+  a { color: var(--accent); text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  code {
+    font-family: var(--mono);
+    font-size: 0.9em;
+    background: var(--code-bg);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    overflow-wrap: anywhere;
+  }
+  .notice-box {
+    margin: 0 0 1rem;
+    padding: 0.9rem 1.1rem;
+    background: var(--note-bg);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+  }
+  .notice-box p { margin: 0; }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  @media (max-width: 34rem) {
+    h1 { font-size: 1.85rem; }
+    .trunk { padding-left: 1rem; }
+    h2::before { left: calc(-1rem - 1px); width: 0.7rem; }
+  }
+  @media print {
+    body { background: #fff; color: #000; }
+    .trunk { border: 0; padding-left: 0; margin-left: 0; }
+    h2::before { display: none; }
+    a { color: #000; text-decoration: underline; }
+  }
+</style>
+</head>
+<body>
+
+<main class="page">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="tagline">Sitemap Path Explorer</p>
+    <dl class="meta">
+      <dt>Effective date</dt>
+      <dd>[DATE]</dd>
+      <dt>Developer</dt>
+      <dd>Arnav Garg</dd>
+      <dt>Contact</dt>
+      <dd><a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a></dd>
+    </dl>
+    <nav class="toc" aria-label="On this page">
+      <ul>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#what-the-extension-reads">What it reads</a></li>
+        <li><a href="#what-the-extension-stores">What it stores</a></li>
+        <li><a href="#who-it-communicates-with">Who it communicates with</a></li>
+        <li><a href="#purchase-and-support">Purchase and support</a></li>
+        <li><a href="#limited-use">Limited Use</a></li>
+        <li><a href="#your-choices">Your choices</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#where-to-find-this-policy">Where to find this policy</a></li>
+        <li><a href="#changes-to-this-policy">Changes to this policy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="trunk">
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <div class="notice-box">
+        <p>Sitemap Path Explorer builds a searchable tree from the sitemap of the website you’re viewing. It has no accounts and no analytics, and I don’t run any server that receives your data. The extension communicates with the websites you view and with Gumroad (to verify your license key). Nothing else leaves your browser.</p>
+      </div>
+    </section>
+
+    <section id="what-the-extension-reads">
+      <h2>What the extension reads</h2>
+      <ul>
+        <li><strong>The address of the site in your active tab,</strong> and of tabs as they finish loading, so the side panel can load the right site’s sitemap and follow you between tabs. These addresses are held in memory while the extension runs and are not saved. The one exception is the site address (origin) of a site you choose to pin, which is stored on your device (see below).</li>
+        <li><strong>The site’s <code>robots.txt</code> and sitemap files,</strong> including sitemap locations the site lists.</li>
+        <li><strong>The result of opening a link from the tree:</strong> the page’s HTTP status (for example 404 or 403) or a navigation error, so the extension can remove dead links and mark links that need a login. This applies only to tabs the extension opened from the tree.</li>
+      </ul>
+      <p>The extension does not inject scripts into web pages, read page content, or access your cookies, passwords or form data.</p>
+    </section>
+
+    <section id="what-the-extension-stores">
+      <h2>What the extension stores on your device</h2>
+      <p>In the browser’s extension storage:</p>
+      <ul>
+        <li>Your license key, a session token derived from it, a random install-specific value used to create that token, your license status, and the times of the last license check and the offline grace period.</li>
+        <li>Whether a site is pinned, and the origin of the pinned site.</li>
+        <li>Temporary session data, cleared when Chrome closes or the extension reloads: the path of a link opened from the tree (so its results can be matched), and the list of dead links found on the pinned site.</li>
+      </ul>
+      <p>Uninstalling the extension removes this data.</p>
+    </section>
+
+    <section id="who-it-communicates-with">
+      <h2>Who the extension communicates with</h2>
+      <ul>
+        <li><strong>Websites you view.</strong> The extension requests <code>robots.txt</code> and sitemap files from the site in your active tab, and from other hosts where that site’s sitemaps are listed, the same way any visitor or search engine would. Those sites may log the requests (for example your IP address). The extension does not send your cookies with these requests. Pages you open by clicking a link in the tree load as normal browsing.</li>
+        <li><strong>Gumroad.</strong> To verify your license the extension sends your license key and this product’s ID to Gumroad’s license service (<code>api.gumroad.com</code>) when you activate, when Chrome starts, and about once a day while Chrome is running. Gumroad receives your IP address as part of the request, and Gumroad’s privacy policy applies to its handling of that data.</li>
+        <li><strong>No one else.</strong> The extension has no analytics, advertising or tracking, and I do not sell or share your data.</li>
+      </ul>
+    </section>
+
+    <section id="purchase-and-support">
+      <h2>Purchase and support</h2>
+      <p>Payments are handled by Gumroad. Gumroad keeps your order records under its own privacy policy. As the seller, I can see the order details it provides in my Gumroad account (such as your name, email address and country), but not your card details.</p>
+      <p>Beyond what stays in my Gumroad account, the only personal information I keep myself is your email address, stored in [WHERE STORED, e.g. my own email account]. I keep it until you ask me to remove it. I use it only to answer support requests, to handle licenses and refunds, and to notify you of changes to this privacy policy or major changes to the extension. I do not send marketing email, and I do not sell or share your email address. If you email me for support, I use your messages only to answer you.</p>
+      <p>To have your email address removed, contact <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>. Once it’s removed I can no longer email you about changes, so please check this page and the notices described below.</p>
+    </section>
+
+    <section id="limited-use">
+      <h2>Limited Use</h2>
+      <p>The use of information this extension accesses complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is used only to provide the extension’s single purpose (showing a website’s sitemap as a searchable tree, with related link checks) and to verify your license. It is not transferred to third parties other than Gumroad for license verification, is not used for advertising or creditworthiness decisions, and is not read by humans.</p>
+    </section>
+
+    <section id="your-choices">
+      <h2>Your choices</h2>
+      <p>You can unpin a site at any time and uninstall the extension to remove its stored data. Your license key and purchase records are also held by Gumroad, so requests about those go to Gumroad. For questions about this policy, contact me at <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>. You can ask me at any time to remove your email address from my records.</p>
+    </section>
+
+    <section id="security">
+      <h2>Security</h2>
+      <p>The extension’s code, including its WebAssembly engine, is bundled in the package and does not load remote code. Communication with Gumroad uses HTTPS. Websites you view use whatever protocol they support.</p>
+    </section>
+
+    <section id="where-to-find-this-policy">
+      <h2>Where to find this policy</h2>
+      <p>You can read this policy at:</p>
+      <ul>
+        <li>the Chrome Web Store listing;</li>
+        <li>the Gumroad product page, and the content page you reach after purchase;</li>
+        <li>the <a href="README.html">README page</a>; and</li>
+        <li>the extension’s license screen, which links to this page.</li>
+      </ul>
+      <p>The link on the license screen always opens the current version of this policy. That screen appears only when you first activate the extension, after you reinstall it or clear its data, and whenever your license has to be re-entered (for example, if it couldn’t be verified for about a week, or it was revoked). It does not show notices about policy updates. Update notices appear in the places listed under “Changes to this policy” below.</p>
+    </section>
+
+    <section id="changes-to-this-policy">
+      <h2>Changes to this policy</h2>
+      <p>When this policy changes in a way that affects how your data is handled, I will, at the time the change takes effect:</p>
+      <ul>
+        <li>post the updated policy at this same address, with a new effective date;</li>
+        <li>add a notice at the very top of the Chrome Web Store listing and the Gumroad product page saying the policy has changed;</li>
+        <li>show a notice in the extension’s main side panel (not the license screen) after the update that introduces the change;</li>
+        <li>add a highlighted notice at the top of the README page;</li>
+        <li>send an email notice to the address I hold for you (unless you’ve asked me to remove it).</li>
+      </ul>
+      <p>These notices stay up for 30 days. Minor edits that don’t affect how data is handled, such as typo fixes or updated contact details, only change the effective date.</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <span>Sitemap Path Explorer</span>
+    <a href="README.html">README</a>
+    <a href="Privacy.html">Privacy policy</a>
+  </footer>
+</main>
+
+</body>
+</html>
