@@ -187,7 +187,7 @@ remove the comment markers around the block below for 30 days, then put them bac
             <ul>
                 <li>It works on sites that publish a sitemap (in <code>robots.txt</code> or at <code>/sitemap.xml</code>). Search matches page names taken from URLs, not page content.</li>
                 <li>Limits: it reads up to about 250,000 URLs per site (50 MB per sitemap file, 60 seconds per load) and displays up to 50,000 nodes.</li>
-                <li>It doesn’t run on <code>chrome://</code> pages, local files, extension pages, or major search engines.</li>
+                <li>It doesn't run on <code>chrome://</code> pages, local files, extension pages, or major search engines.</li>
                 <li>Very large sites (hundreds of thousands of pages) can go past these limits. When that happens, no tree is built for that site.</li>
                 <li>Text (<code>.txt</code>) and compressed (<code>.gz</code>) sitemaps aren’t supported yet. If a site lists one, the panel shows “Text and gzip sitemap formats are not supported yet.” and no tree is built.</li>
                 <li>It requires desktop Google Chrome 114 or newer. Other browsers aren’t supported.</li>
@@ -195,18 +195,18 @@ remove the comment markers around the block below for 30 days, then put them bac
         </section>
 
         <section id="how-its-built">
-            <h2>How it’s built</h2>
-            <p>The part I’m proudest of is the engine. The tree is built by a small Rust program compiled to WebAssembly. It keeps its data in flat arrays that the panel reads directly, rather than building thousands of objects, and it sorts folders ahead of pages. The limits above keep every load bounded.</p>
+            <h2>How it's built</h2>
+            <p>The part I'm proudest of is the engine. The tree is built by a small Rust program compiled to WebAssembly. It keeps its data in flat arrays that the panel reads directly, rather than building thousands of objects, and it sorts folders ahead of pages. The limits above keep every load bounded.</p>
         </section>
 
         <section id="getting-started">
             <h2>Getting started</h2>
             <ol>
-                <li>Install the free extension from the Chrome Web Store. The listing link will be added here when it goes live.</li>
+                <li>Install the free extension from the <a href="https://chromewebstore.google.com/detail/sitemap-path-explorer/glfajbfciahcmongbnbgedjpbngmkocj">Chrome Web Store</a>.</li>
                 <li>Buy your license on <a href="https://arnavgarg.gumroad.com/l/sitemap-explorer">Gumroad</a> (one-time payment). Your key arrives in your receipt email and on your Gumroad content page.</li>
-                <li>Click the extension’s icon in Chrome’s toolbar to open the side panel. If you don’t see it, click the puzzle-piece icon and pin the extension.</li>
+                <li>Click the extension's icon in Chrome's toolbar to open the side panel. If you don’t see it, click the puzzle-piece icon and pin the extension.</li>
                 <li>Paste your license key and click <strong>Activate Extension</strong>. A key looks like <code>XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX</code>.</li>
-                <li>Visit any website and the panel builds that site’s tree from its sitemap.</li>
+                <li>Visit any website and the panel builds that site's tree from its sitemap.</li>
             </ol>
         </section>
 
@@ -217,7 +217,7 @@ remove the comment markers around the block below for 30 days, then put them bac
                 <li><strong>Asked for your key again?</strong> This happens after a reinstall, a new computer, or clearing browsing data. It can also happen if the extension couldn’t reach Gumroad for about a week, or if the license is no longer valid. Enter the same key again. The extension re-checks your license about once a day and when Chrome starts, and it keeps working through short offline stretches.</li>
                 <li><strong>Messages you might see:</strong>
             <ul>
-                <li><em>Invalid license key.</em> The key wasn’t recognized. Check for typos or extra characters, and make sure it’s the key for this extension.</li>
+                <li><em>Invalid license key.</em> The key wasn't recognized. Check for typos or extra characters, and make sure it's the key for this extension.</li>
                 <li><em>License revoked.</em> The purchase was refunded, charged back, or disputed.</li>
                 <li><em>Could not contact Gumroad. Please try again.</em> A temporary network or service problem. Try again in a few minutes.</li>
             </ul>
